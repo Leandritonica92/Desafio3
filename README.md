@@ -3,6 +3,7 @@
 ## Objetivos del desafío: El objetivo de este desafío será crear algunos servicios básicos en nuestra cuenta de AWS e interactuar con ellos. Primero tendremos que verificar los prerrequisitos, en caso de ya cumplirlos, aclararlo en el instructivo. Luego crearemos una instancia EC2, un bucket S3 y un volumen de EBS:
 
 1. **Creación del usuario IAM:**
+
    - Crearemos el usuario siguiendo los siguientes pasos:
    
 - Paso 1
@@ -60,7 +61,12 @@
  https://i.postimg.cc/Hs338kwH/8.png
 
 
+
+
 2. **Lanzar instancias en EC2**
+
+
+
 
  Para lanzar una instancia en EC2 es importante tener en cuenta la región o zona en la que se lanzará, en nuestro caso lo haremos en us-east-1 (N. Virginia) En la barra de búsqueda escribimos EC2 y vamos a Lanzar instancias.
 
@@ -108,7 +114,11 @@
 https://i.postimg.cc/Hn65njfh/14.png
 
 
+
+
 **Conectarse a la Instancia por SSH desde nuestra VM**
+
+
 
 
  Hay varias formas para conectarnos a la instancia en esta ocasión lo haremos por medio de conexión SSH desde nuestra terminal de Linux 
@@ -147,7 +157,13 @@ https://i.postimg.cc/ryj5QYKN/15.png
  https://i.postimg.cc/26mBx4Yt/21.png
 
 
+
+
+
  **Crear un bucket en el servicio S3**
+
+
+
 
 
  Una vez logueados al usuario que creamos con los permisos de AmazonS3FullAccess podremos crear un bucket para almacenamiento.
@@ -203,8 +219,15 @@ https://i.postimg.cc/SN0jL6Gf/28.png
 
 
 
+
+
+
 **Elastic Block Store (EBS)**
- 
+
+
+
+
+
 
 Crear un volumen de EBS y linkearlo a la instancia que creamos previamente. 
 
